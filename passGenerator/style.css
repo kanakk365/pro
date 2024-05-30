@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tenor+Sans&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    background-color:#EEEEEE;
+}
+.container{
+    font-size: 1rem;
+    font-weight: 100;
+    background-color:#3A4750 ;
+    height: 35rem;
+    width: 30rem;
+    margin-top: 15rem;
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+h1{
+    color: white;
+    font-weight: 400;
+}
+input{
+    width: 13rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    margin-top: .5rem;
+    text-align: center;
+}
+button{
+    color: white;
+    background-color: #00ADB5;
+    border: 0;
+    height: 3rem;
+    width: 7rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.num{
+    width: 100%;
+    margin-left: 90px;
+} .sym{
+    width: 100%;
+    margin-left: 90px;
+}
+.upp{
+    width: 100%;
+    margin-left: 90px;
+}
+.low{
+    width: 100%;
+    margin-left: 90px;
+}
+.result{
+    color: white;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.spec{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    color: white;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.rad{
+    width: 100%;
+    width: 20px;
+    height: 20px;
+    
+}
+.char{
+    display: flex;
+    flex-direction: column;
+
+}
+.char input{
+    margin-top: 1.5
+    rem;
+}
